@@ -45,6 +45,7 @@ class MainActivity : ComponentActivity() {
                             }
                         )
                     }
+
                     composable(
                         "resultados/{datosJson}/{calificacion}/{totalPreguntas}",
                         arguments = listOf(
